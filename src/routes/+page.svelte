@@ -16,7 +16,7 @@
   {:else}
     <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">
       <strong class="font-bold">You are not signed in</strong>
-      <span class="block sm:inline"><a href="/signup" class="text-blue-500 hover:text-blue-700">Please sign in to continue</a></span>
+      <span class="block sm:inline"><a href="/login" class="text-blue-500 hover:text-blue-700">Please sign in to continue</a></span>
     </div>
   {/if}
 
