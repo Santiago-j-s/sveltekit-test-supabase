@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { PUBLIC_URL } from '$env/static/public';
   import { supabase } from '$lib/supabaseClient';
   import { goto } from '$app/navigation';
 
@@ -16,7 +17,7 @@
         email,
         password,
         options: {
-          emailRedirectTo: `${window.location.origin}/auth/callback`
+          emailRedirectTo: `${PUBLIC_URL}/auth/callback`
         }
       });
 
